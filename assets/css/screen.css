@@ -908,6 +908,17 @@ body.nav-opened .menu-button .word {
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
+.tag-title {
+	text-align:center;	
+	font-family: "Merriweather", serif;
+	margin: 0; font-size: 0.9em; line-height: 1.7em;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+.tag-title span {
+	color: #e67f34;
+}
 .post {
     position: relative;
     width: 80%;
