@@ -29,6 +29,14 @@
 
     <div class="site-wrapper">
 
+	<header class="main-header">
+	    <div class="vertical">
+		<div class="header-content">
+			{{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+			<a class="visit-us-link" href="http://diatomenterprises.com">Visit us</a>
+		</div>
+	    </div>
+	</header>
         {{! Everything else gets inserted here }}
         {{{body}}}
 
