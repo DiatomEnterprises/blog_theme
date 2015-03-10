@@ -203,9 +203,8 @@ h4, h5, h6 {
     color: #59595D;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: cambria;
     text-rendering: geometricPrecision;
-    font-family: cambria;
+    font-family: 'PT Sans', sans-serif;
 }
 
 h1 {
@@ -217,8 +216,7 @@ h1 {
 h2 {
     font-size: 3.6rem;
     color: #595959;
-    text-align: center;
-    font-family: cambria;
+    text-align: left;
 }
 
 h3 {
@@ -951,7 +949,7 @@ body.nav-opened .menu-button .word {
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 2.8rem;
 }
 
 .post-title: {
@@ -984,7 +982,7 @@ body:not(.post-template) .post-title {
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
-    text-align: center;
+    text-align: left;
 }
 
 .author-thumb {
@@ -995,7 +993,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: #e67f34;
     text-decoration: none;
 }
 
@@ -1068,7 +1066,6 @@ body:not(.post-template) .post-title {
 .post-template .post-title {
     margin-bottom: 0;
     color: #595959;
-    text-align: center;
 }
 
 .post-template .post-meta {
